@@ -1,5 +1,9 @@
-# Projeto Cafeteria ☕
+<img src="./assets/mockup.png">
 
-## Sobre
+## 📝 Sobre
 
-* Neste projeto, criei uma experiência virtual acolhedora e convidativa para os apreciadores de café com o projeto "Café DevClub". Utilizando HTML, CSS e JavaScript, desenvolvi um site com design responsivo, garantindo uma experiência de usuário perfeita em dispositivos móveis e desktops.
+O projeto <b>DevCoffee</b> trata-se de uma landing page de cafeteria que apresenta uma variedade de cafés no cardápio e outras informações. O projeto foi desenvolvido tanto para desktops quanto para dispositivos móveis, contando com um design responsivo que se adapta a qualquer formato de tela.
+
+## 🖥 Tecnologias
+
+Este projeto foi desenvolvido com HTML, CSS e JavaScript.

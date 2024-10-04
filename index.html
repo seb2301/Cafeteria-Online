@@ -1,235 +1,216 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>Cafeteria</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="./assets/icon2.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/e12cc718e7.js" crossorigin="anonymous" defer></script>
+  <script src="./script.js" defer></script>
+  <title>DevCoffee - Cafeteria dos Devs</title>
 </head>
-
 <body>
-
-    <header class="header">
-
-        <section>
-
-            <a href="#" class="logo">
-                <img src="./img/logo.png" alt="logo">
-            </a>
-
-            <nav class="navbar"> 
-
-                <button class="menu-list"></button>
-
-                <div class="navbar-links">
-                    <a href="#">Home</a>
-                    <a href="#about">Sobre</a>
-                    <a href="#menu">Menu</a>
-                    <a href="#review">Avaliações</a>
-                    <a href="#address">Endereço</a>
-
-                    <div class="icons">
-                        <i class="bi bi-search"></i>
-                        <i class="bi bi-cart-fill"></i>
-                    </div>
-                </div>
-
-               
-
-                
-
-            </nav>
-
-        </section>
-
-    </header>
-
-    <div class="home-container">
-
-        <section id="home">
-
-            <div class="content">
-                <h3>CODE COM O MELHOR CAFÉ DA REGIÃO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ut ab, ducimus magni soluta impedit
-                    ratione officiis rem consequatur sint tenetur autem sequi alias corporis? Temporibus vel expedita
-                    odio omnis.</p>
-                <a href="#" class="btn">Pegue o seu Agora</a>
-            </div>
-
-        </section>
-
+  <header>
+    <section class="inner-header">
+      <a class="logo" href="/devcoffee">
+        <img src="./assets/logo4.png" alt="Logo DevCoffee" title="DevCoffe">
+        <h1>DevCoffee</h1>
+      </a>
+      <nav>
+        <a href="/devcoffee">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#menu">Menu</a>
+        <a href="#reviews">Avaliações</a>
+        <a href="#address">Endereço</a>
+      </nav>
+      <div class="icons">
+        <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/search--v1.png" alt="search--v1"/>
+        <img width="30" height="30" src="https://img.icons8.com/material-rounded/30/ffffff/shopping-cart.png" alt="shopping-cart"/>
+      </div>
+    </section>
+  </header>
+  <div class="hero-container">
+    <section>
+      <div class="inner-hero">
+        <h2>Experimente um novo sabor de café</h2>
+        <p>Bem-vindos à DevCoffee, o ponto de encontro essencial dos programadores. Nosso café é feito sob medida para impulsionar mentes criativas: cada xícara é uma injeção de inspiração e cada gole é uma dose de energia para os desafios do código. Peça já o seu e experimente o sabor especial que criamos para vocês, Devs!</p>
+        <button class="btn">Ver cardápio</button>
+      </div>
+    </section>
+  </div>
+  <div id="about">
+    <div class="inner-about">
+      <div class="img"></div>
+      <div class="text">
+        <div class="inner-text">
+          <h2 class="title">O que torna o café da DevCoffee especial?</h2>
+          <img class="divider" src="./assets/divider.png" alt="Divisor">
+          <p>Cada grão é selecionado meticulosamente, não apenas pelo sabor, mas também pelo impacto que terá na produtividade e na clareza mental dos Devs. A equipe por trás do balcão entende que programadores e programadoras dependem de uma combinação única de cafeína e foco para enfrentar os desafios do dia a dia. Por isso, cada xícara é preparada com precisão, garantindo um sabor excepcional e a quantidade ideal de energia para impulsionar o próximo projeto ou resolver o próximo bug.
+            <br><br>
+            A DevCoffee é muito mais do que apenas uma cafeteria; é um santuário para os Devs, um espaço onde a criatividade flui tão livremente quanto o café recém-preparado. O que torna o nosso café tão especial é a sua dedicação em entender as necessidades específicas dos desenvolvedores. Desde o momento em que você entra, é recebido por uma atmosfera acolhedora, permitindo que sua mente se concentre nas linhas de código que está prestes a escrever.</p>
+          <button class="btn">Saiba mais</button>
+        </div>
+      </div>
     </div>
-
-    <section class="about" id="about">
-
-        <h2 class="title">Sobre <span>Nós</span></h2>
-
-        <div class="row">
-
-            <div class="container-image">
-                <img src="./img/about-img.jpg" alt="sobre-nos">
-            </div>
-
-            <div class="content">
-                <h3>O Que faz Nosso Café Especial</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ea, numquam sint illum laboriosam
-                    deserunt doloribus explicabo dolorem fugit, exercitationem ducimus harum! Ullam impedit temporibus
-                    repellat mollitia, excepturi soluta laboriosam!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum distinctio, natus quis magnam
-                    accusamus impedit quod eum quisquam facere nam sunt consequuntur qui veritatis cum eaque alias eius
-                    deserunt maiores.</p>
-                <a href="" class="btn">Saiba Mais</a>
-            </div>
-
+  </div>
+  <div id="menu">
+    <section>
+      <h2 class="title">Nossos cafés</h2>
+      <img class="divider" src="./assets/divider.png" alt="Divisor">
+      <div class="cards">
+        <div class="card">
+          <img src="./assets/tradicional.jpg" alt="Café 1">
+          <h3>Tradicional</h3>
+          <strong>O café tradicional é a escolha ideal para aqueles que apreciam um café que é ao mesmo tempo familiar e excepcionalmente delicioso.</strong>
+          <p>R$ 8,90 <span>R$ 13,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
         </div>
-
-    </section>
-
-    <section class="menu" id="menu">
-
-        <h2 class="title">Nosso <span>Menu</span></h2>
-
-        <div class="box-container">
-
-            <div class="box">
-
-                <img src="./img/menu-1.png" alt="item-1">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
-            <div class="box">
-
-                <img src="./img/menu-2.png" alt="item-2">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
-            <div class="box">
-
-                <img src="./img/menu-3.png" alt="item-3">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
-            <div class="box">
-
-                <img src="./img/menu-4.png" alt="item-4">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
-            <div class="box">
-
-                <img src="./img/menu-5.png" alt="item-5">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
-            <div class="box">
-
-                <img src="./img/menu-6.png" alt="item-6">
-                <h3>Café Coado</h3>
-                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
-                <a href="#" class="btn">Adicione ao Carrinho</a>
-
-            </div>
-
+        <div class="card">
+          <img src="./assets/expresso.jpg" alt="Café 2">
+          <h3>Expresso</h3>
+          <strong>Uma dose concentrada de café, preparada rapidamente sob pressão. Perfeito para quem busca uma experiência rápida e satisfatória.</strong>
+          <p>R$ 11,90 <span>R$ 16,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
         </div>
-
-    </section>
-
-    <section class="review" id="review">
-
-        <h2 class="title">Nossos <span>Clientes</span></h2>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="./img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi id error ipsa consequuntur
-                    consectetur dignissimos hic, alias, neque rem, nulla assumenda a fuga labore quas earum voluptatibus
-                    dolorem dolore.</p>
-                <img src="./img/pic-1.png" alt="imagem-cliente" class="user">
-                <h3>Pedro Henrique</h3>
-                <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-half"></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="./img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi id error ipsa consequuntur
-                    consectetur dignissimos hic, alias, neque rem, nulla assumenda a fuga labore quas earum voluptatibus
-                    dolorem dolore.</p>
-                <img src="./img/pic-2.png" alt="imagem-cliente-2" class="user">
-                <h3>Sanndy Paganini</h3>
-                <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-half"></i>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="./img/quote-img.png" alt="comentario">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In sequi id error ipsa consequuntur
-                    consectetur dignissimos hic, alias, neque rem, nulla assumenda a fuga labore quas earum voluptatibus
-                    dolorem dolore.</p>
-                <img src="./img/pic-3.png" alt="imagem-cliente-3" class="user">
-                <h3>Saulo Miranda</h3>
-                <div class="stars">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-half"></i>
-                </div>
-            </div>
+        <div class="card">
+          <img src="./assets/extraforte.jpg" alt="Café 3">
+          <h3>Extraforte</h3>
+          <strong>O café extraforte é um café de personalidade. Possui um sabor marcante e encorpado, que dura no seu paladar por mais tempo.</strong>
+          <p>R$ 13,90 <span>R$ 18,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
         </div>
-    </section>
-
-    <section class="address" id="address">
-
-        <h2 class="title">Nosso <span>Endereço</span></h2>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58542.2604191721!2d-46.8577745!3d-23.5004253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf0231c2c42623%3A0xf183547ebb617291!2sFran%C2%B4s%20Caf%C3%A9%20-%20Einstein%20Alphaville!5e0!3m2!1spt-BR!2sbr!4v1712805916124!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    </section>
-
-    <section class="footer">
-
-        <div class="share">
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-twitter-x"></i>
+        <div class="card">
+          <img src="./assets/ristretto.jpg" alt="Café 4">
+          <h3>Ristretto</h3>
+          <strong>É uma versão mais concentrada do café expresso. Entre os tipos mais populares de café, o Ristretto é aquele que tem maior intensidade.</strong>
+          <p>R$ 12,90 <span>R$ 17,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
         </div>
-    </section>
+        <div class="card">
+          <img src="./assets/machiatto.jpg" alt="Café 5">
+          <h3>Machiatto</h3>
+          <strong>O Macchiato é uma poderosa explosão de sabor, combinando a intensidade do café expresso com a suavidade do leite vaporizado.</strong>
+          <p>R$ 14,90 <span>R$ 19,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+          <img src="./assets/latte.jpg" alt="Café 6">
+          <h3>Latte</h3>
+          <strong>O Latte mistura café expresso com leite vaporizado. Além da mistura de leite com o café, traz um centímetro de espuma de leite sobre a bebida.</strong>
+          <p>R$ 10,90 <span>R$ 15,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+          <img src="./assets/americano.jpg" alt="Café 7">
+          <h3>Americano</h3>
+          <strong>O café americano é um estilo preparado a partir da adição de água quente ao café, o que dá um sabor diferente e mais suave à bebida.</strong>
+          <p>R$ 11,90 <span>R$ 16,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+          <img src="./assets/capuccino.png" alt="Café 8">
+          <h3>Capuccino</h3>
+          <strong>O cappuccino combina a robustez do café expresso com a cremosidade do leite vaporizado e uma generosa camada de espuma de leite.</strong>
 
-    <script src="scripts.js"></script>
+          <p>R$ 14,90 <span>R$ 19,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
+        </div>
+        <div class="card">
+          <img src="./assets/mocaccino.jpg" alt="Café 9">
+          <h3>Mocaccino</h3>
+          <strong> Mocaccino é uma deliciosa bebida quente que combina os sabores intensos do café com o rico sabor do chocolate e a cremosidade do leite.</strong>
+          <p>R$ 19,90 <span>R$ 24,90</span></p>
+          <button class="btn">Adicionar ao carrinho</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div id="reviews">
+    <h2 class="title">Avaliação dos clientes</h2>
+    <img class="divider" src="./assets/divider.png" alt="Divisor">
+    <div class="carousel">
+        <section>
+        <div class="cards reviews">
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 1</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 2</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 3</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 4</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 5</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+          <div class="card review">
+            <img width="75" height="75" src="https://img.icons8.com/ios-glyphs/75/ffffff/quote.png" alt="quote"/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eveniet labore ea inventore ratione magni, laborum incidunt. Laudantium illum mollitia eveniet, nesciunt veniam blanditiis soluta accusantium adipisci iure dolor corporis!</p>
+            <img src="./assets/cliente.png" alt="Foto do cliente">
+            <h3>Cliente 6</h3>
+            <img src="https://www.pngkey.com/png/full/104-1046557_why-not-just-a-five-star-rating-white.png" alt="Estrelas">
+          </div>
+        </div>
+        </section>
+        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/f1d983/chevron-left.png" class="prev-btn" alt="Próximo"/>
+        <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/f1d983/chevron-right.png" class="next-btn" alt="Próximo"/>
+      </div>
+  </div>
+  <div id="address">
+    <section>
+      <h2 class="title">Como chegar</h2>
+      <img class="divider" src="./assets/divider.png" alt="Divisor">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.821975694633!2d-46.638171032287474!3d-23.55507568113104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce590c17280e41%3A0x5bfb18bf4d8d7600!2sCoffee%20Selfie!5e0!3m2!1spt-BR!2sbr!4v1711491254791!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+  </div>
+  <footer>
+    <h3 title="Desenvolvido por Sebastião Soares">
+      Copyright &copy; 2024 - Desenvolvido por
+      <a href="https://www.linkedin.com/in/sebfullstack/" target="_blank"
+        >Sebastião Soares</a
+      >
+    </h3>
+    <h4>
+      Contato:
+      <a
+        href="https://www.linkedin.com/in/sebfullstack/"
+        target="_blank"
+        title="LinkedIn"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a
+        href="https://www.github.com/seb2301/"
+        target="_blank"
+        title="GitHub"
+        ><i class="fa-brands fa-github"></i
+      ></a>
+      <a href="https://wa.me/5547999876998" target="_blank" title="WhatsApp"
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+    </h4>
+  </footer>
 </body>
-
 </html>
