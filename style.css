@@ -492,7 +492,7 @@ footer a:active {
 
   .hero-container {
     background: linear-gradient(to bottom, transparent 70%, #090403 100%), url("./assets/background.jpg") no-repeat left/cover;
-    background-position: -1000px;
+    background-position: -800px;
   }
 
   .hero-container section {
